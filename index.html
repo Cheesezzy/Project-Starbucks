@@ -4,16 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Responsive website</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- box icons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
   </head>
+
   <body>
     <header>
-      <a href="#" class="logo"><img src="img/logo.png" alt="logo" /></a>
+      <a href="#" class="logo"><img src="img/logo.png" alt="" /></a>
+      <div id="menu-icon"><i class="bx bx-menu"></i></div>
 
       <ul class="navbar">
         <li><a href="#home">Home</a></li>
-        <li><a href="#Shop">Shop</a></li>
+        <li><a href="#shop">Shop</a></li>
         <li><a href="#delivery">Delivery</a></li>
         <li><a href="#app">App</a></li>
         <li><a href="#about">About</a></li>
@@ -24,12 +31,9 @@
     <section class="home" id="home">
       <div class="home-text">
         <span>Welcome To</span>
-        <h1>Patrick's Coffee</h1>
-        <h2>
-          Free Coffee is a <br />
-          tap away
-        </h2>
-        <a href="#" class="btn">Join now</a>
+        <h1>Starbucks Coffee</h1>
+        <h2>Free Coffee is a <br />tap away</h2>
+        <a href="#" class="btn"> Join Now</a>
       </div>
       <div class="home-img">
         <img src="img/home.png" alt="" />
@@ -39,28 +43,146 @@
     <section class="shop" id="shop">
       <div class="heading">
         <span>Shop Now</span>
-        <h1>Shop Coffee</h1>
+        <h1>shop coffee</h1>
       </div>
-      <div class="box-con">
+      <div class="shop-container">
         <div class="box">
-          <img class="box-img" src="img/shop1.png" alt="" />
-          <h2>Patrick's Coffee</h2>
-          <span>$10</span>
-          <a href="#">Order Now</a>
+          <div class="box-img">
+            <img src="img/shop1.png" alt="" />
+          </div>
+          <div class="stars">
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon name="star-half" type="solid"></box-icon>
+          </div>
+          <h2>Starbucks Coffee</h2>
+          <span>$ 12.4</span>
+          <a href="#" class="btn">Order Now</a>
         </div>
+
         <div class="box">
-          <img class="box-img" src="img/shop1.png" alt="" />
-          <h2>Patrick's Coffee</h2>
-          <span>$10</span>
-          <a href="#">Order Now</a>
+          <div class="box-img">
+            <img src="img/shop2.png" alt="" />
+          </div>
+          <div class="stars">
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon name="star-half" type="solid"></box-icon>
+          </div>
+          <h2>Starbucks Coffee</h2>
+          <span>$ 12.4</span>
+          <a href="#" class="btn">Order Now</a>
         </div>
+
         <div class="box">
-          <img class="box-img" src="img/shop1.png" alt="" />
-          <h2>Patrick's Coffee</h2>
-          <span>$10</span>
-          <a href="#">Order Now</a>
+          <div class="box-img">
+            <img src="img/shop3.png" alt="" />
+          </div>
+          <div class="stars">
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon type="solid" name="star"></box-icon>
+            <box-icon name="star-half" type="solid"></box-icon>
+          </div>
+          <h2>Starbucks Coffee</h2>
+          <span>$ 12.4</span>
+          <a href="#" class="btn">Order Now</a>
         </div>
       </div>
     </section>
+
+    <section class="delivery" id="delivery">
+      <div class="heading">
+        <span>Get Now</span>
+        <h1>Order With Uber Eats</h1>
+      </div>
+      <div class="container">
+        <div class="delivery-img">
+          <img src="img/delivery.png" alt="" />
+        </div>
+        <div class="delivery-text">
+          <h2>Today deserve delivery</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+            maiores repudiandae labore nesciunt hic doloribus repellat
+            voluptatibus incidunt, doloremque excepturi!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At iste
+            animi quae. Asperiores impedit nam unde, adipisci consectetur
+            recusandae reprehenderit.
+          </p>
+          <a href="#" class="btn">Order Now</a>
+        </div>
+      </div>
+    </section>
+    <section class="app" id="app">
+      <div class="heading">
+        <span>Our App</span>
+        <h1>Download App</h1>
+      </div>
+      <div class="container">
+        <div class="app-text">
+          <h2>Fall into an easier routine</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+            maiores repudiandae labore nesciunt hic doloribus repellat
+            voluptatibus incidunt, doloremque excepturi!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At iste
+            animi quae. Asperiores impedit nam unde, adipisci consectetur
+            recusandae reprehenderit.
+          </p>
+          <a href="#" class="btn">Get App</a>
+        </div>
+        <div class="app-img">
+          <img src="img/app.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="delivery-img">
+        <img src="img/about.png" alt="" />
+      </div>
+      <div class="delivery-text">
+        <h2>Today deserve delivery</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure maiores
+          repudiandae labore nesciunt hic doloribus repellat voluptatibus
+          incidunt, doloremque excepturi!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. At iste
+          animi quae. Asperiores impedit nam unde, adipisci consectetur
+          recusandae reprehenderit.
+        </p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="social">
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+        <a href="#"><i class="bx bxl-youtube"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms Of Use</a>
+        <a href="#">Our Company</a>
+      </div>
+      <p>%#169; CarpoolVenom All Right Reserved</p>
+    </section>
+
+    <script src="script.js"></script>
   </body>
 </html>
